@@ -1,4 +1,4 @@
-
+-- tabela do exercício
 CREATE TABLE customers(
 	id 	int PRIMARY KEY AUTO_INCREMENT,
     name	varchar(255),
@@ -22,6 +22,6 @@ VALUES ('Jane Ester',	'Av 7 de setembro',	'Erechim'	,'RS',	800.00);
 INSERT INTO customers (name,street,city,state,credit_limit)
 VALUES ('Marcos Antônio dos Santos',	'Av Farrapos'	,'Porto Alegre',	'RS',	4250.25);
 
-
+-- resposta
 SELECT name FROM customers
 WHERE state = 'RS'
